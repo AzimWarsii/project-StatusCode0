@@ -3,4 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {nextConfig,
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
+}
+}
