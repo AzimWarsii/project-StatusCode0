@@ -217,7 +217,7 @@ const Navbar1 = () => {
           data-tooltip-target="tooltip-settings"
           type="button"
           className="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
-          href='/ai-chatbot'
+          href='https://statuscode0chatbot.streamlit.app/'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

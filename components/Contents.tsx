@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Card from './Card'
+import Card from './Card1'
 import Card2 from './Card2'
 
 
@@ -80,13 +80,13 @@ const Contents = () => {
       <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
         <div className="flex flex-nowrap lg:ml-40 md:ml-20 ">
 
+          <Card  day={"Sunday"} part={"Tricep"}/>
           <Card2  day={"Monday"} part={"Leg"}/>
-          <Card  day={"Tuesday"} part={"Chest"}/>
-          <Card  day={"Wednesday"}part={"Arms"}/>
-          <Card  day={"Thursday"}part={"Back"}/>
-          <Card  day={"Friday"}part={"Shoulder"} />
-          <Card  day={"Saturday"}part={"Abs"}/>
-          <Card  day={"Sunday"}part={"Tricep"}/>
+          <Card2  day={"Tuesday"} part={"Chest"}/>
+          <Card2  day={"Wednesday"} part={"Arms"}/>
+          <Card2  day={"Thursday"} part={"Back"}/>
+          <Card2  day={"Friday"} part={"Shoulder"} />
+          <Card2  day={"Saturday"} part={"Abs"}/>
         </div>
       </div>
       </>

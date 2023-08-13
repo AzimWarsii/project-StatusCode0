@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useUser } from "@auth0/nextjs-auth0/client";
 import { withPageAuthRequired } from '@auth0/nextjs-auth0/client';
 import Image from "next/image";
+import Navbar1 from '../../components/Navbar1';
 
 
 
@@ -57,7 +58,7 @@ export default withPageAuthRequired(function ProfileApi() {
               <span className="text">None</span>
             </p>
             <p className="text-sm text-white-600 pt-4">
-              <a href="/api/auth/logout" className="font-semibold">Logout</a>{" "}
+              <a href="/api/auth/logout" className="font-semibold border border-white">Logout</a>{" "}
               
             </p>
           </div>
@@ -65,6 +66,8 @@ export default withPageAuthRequired(function ProfileApi() {
       </div>
     </div>
       <pre data-testid="profile-api">{JSON.stringify(userr, null, 2)}</pre>
+
+      <Navbar1/>
 
     </>
   );
