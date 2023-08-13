@@ -50,7 +50,7 @@ function index() {
     const username = user.name;
     return (
       <>
-      <title>Med+</title>
+      <title>GymBros</title>
 
     <Navbar1 />
 
@@ -78,7 +78,7 @@ function index() {
        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700"
        rel="stylesheet"
       />
-      <title>Med+</title>
+      <title>GymBros</title>
       {/* <Navbar /> */}
 
     
