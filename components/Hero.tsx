@@ -11,7 +11,7 @@ const Hero = () => {
   >
     <div className="container mx-auto px-6">
       <h2 className="text-4xl font-bold mb-2 text-white">
-        Smart Health Monitoring System!
+        GymBros Connect
       </h2>
       <h3 className="text-2xl mb-8 text-gray-200">
         Monitor your health smartly.

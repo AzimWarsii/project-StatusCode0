@@ -8,7 +8,7 @@ const Welcome = ({user}) => {
   >
     <div className="bg-black  mx-auto pl-6">
       <h2 className="text-5xl  font-body font-bold text-primary tracking-widest">
-        {user}!
+        {user}
       </h2>
       <h3 className="font-light font-body text-xl text-left tracking-tightest text-secondary">
         Monitor your health vitals smartly.
