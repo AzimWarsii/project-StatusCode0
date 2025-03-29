@@ -33,6 +33,7 @@ git clone https://github.com/xcriminal1/project-StatusCode0.git
 cd project-StatusCode0
 npm install
 npm start
+```
 
 ## 🔑 Environment Variables
 
@@ -42,6 +43,7 @@ Before running the project, create a `.env` file and add the following variables
 REACT_APP_AUTH0_DOMAIN=your-auth0-domain
 REACT_APP_AUTH0_CLIENT_ID=your-client-id
 REACT_APP_BACKEND_URL=http://localhost:5000
+```
 
 ## 🎯 How to Use
 
